@@ -1,0 +1,120 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+nav{
+  background-color: #ffffff;
+  height: 65px;
+  width: 100%;
+}
+
+.logo{
+  max-width: 300px;
+  line-height: 80px;
+  padding: 0 100px;
+}
+
+nav ul{
+  float: right;
+}
+
+nav ul li{
+  display: inline-block;
+  line-height: 70px;
+  margin: 0 5px;
+}
+
+nav ul li a{
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+a.active,a:hover{
+  background: #000000;
+  transition: .5s;
+}
+
+.chackbtn{
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#check{
+  display: none;
+}
+
+@media (max-width: 952px){
+  .logo{
+      max-width: 300px;
+      font-size: 30px;
+      padding-left: 50px;
+  }
+
+  nav ul li a{
+      font-size: 16px;
+  }
+}
+
+@media (max-width: 858px){
+  .chackbtn{
+      display: block;
+  }
+
+  .logo{
+      max-width: 300px;
+      max-width: 28%;
+      padding-left: 50px;
+  }
+
+  ul{
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: #2e2c38;
+      top: 80px;
+      right: -103%;
+      text-align: center;
+      transition: all .5s;
+  }
+
+  nav ul li{
+      display: block;
+      margin: 50px 0;
+      line-height: 30px;
+  }
+
+  nav ul li a{
+      font-size: 20px;
+  }
+
+  a:hover,a.active{
+      background: none;
+      color: #e2dbe0;
+  }
+
+  #check:checked ~ ul{
+      right: 0;
+
+  }
+
+}
+
+@media (max-width: 653px){
+  .logo{
+      max-width: 210px;;
+      font-size: 15px;
+      padding-left: 21px;
+  }
+}
