@@ -1,4 +1,5 @@
 import '../style/Intro.css';
+import About from './About';
 import Grid from "@material-ui/core/Grid";
 import Navbar from './Navbar';
 import illustration from '../images/profile-pic.jpg';
@@ -20,6 +21,7 @@ function Intro (){
           </Grid>
         </Grid>  
       </section>
+      <About />
     </div>
   )
 }

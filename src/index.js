@@ -1,3 +1,4 @@
+import About from './components/About';
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -10,6 +11,7 @@ ReactDOM.render(
   <BrowserRouter>
     <Switch>
       <Route path="/" component={Intro} exact />
+      <Route path="/about" component={About} exact />
     </Switch>
   </BrowserRouter>,
   document.getElementById('root')

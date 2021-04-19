@@ -1,9 +1,16 @@
 import '../style/Navbar.css';
 import { Link } from "react-router-dom";
 import logo from '../logo.jpg';
-// import logo from '../images/logo.jpg';
+// import { useHistory } from "react-router-dom";
 
 function Navbar(){
+  // const history = useHistory();
+
+  // const about = (event) => {
+  //   event.preventDefault();
+  //   history.push("/about");
+  // }
+
   return(
     <div className="navbar">
       <nav>
@@ -15,6 +22,9 @@ function Navbar(){
         <ul className="menuItens">
         <li>
           <Link className="active" to="/">Home</Link>
+        </li>
+        <li>
+          <Link className="active" to="#about">About</Link>
         </li>
         </ul>
       </nav>
