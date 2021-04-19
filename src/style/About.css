@@ -8,6 +8,7 @@
   text-align: center;
   font-size: 45px;
   padding: 10px 0px;
+  padding-bottom: 10px;
 }
 
 a{
@@ -20,6 +21,7 @@ a{
   max-width: 75%;
   margin-top: 10px;
   padding-bottom: 35px;
+  font-size: 20px;
 }
 
 

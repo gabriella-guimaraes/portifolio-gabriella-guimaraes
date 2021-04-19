@@ -1,8 +1,9 @@
 import '../style/Intro.css';
 import About from './About';
+import illustration from '../images/profile-pic.jpg';
 import Grid from "@material-ui/core/Grid";
 import Navbar from './Navbar';
-import illustration from '../images/profile-pic.jpg';
+import Skills from './Skills';
 
 function Intro (){
   return(
@@ -22,6 +23,7 @@ function Intro (){
         </Grid>  
       </section>
       <About />
+      <Skills />
     </div>
   )
 }

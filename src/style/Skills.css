@@ -1,0 +1,39 @@
+.skill-intro{
+  text-align: center;
+  font-size: 38px;
+  color: black;
+  margin-bottom: 8px;
+}
+
+.skill-text{
+  text-align: center;
+  font-size: 20px;
+  padding: 0px 30px;
+  margin-bottom: 5px;
+}
+
+.skills{
+  padding: 0px 30px;
+  background-color: black;
+  height: 30vh;
+}
+
+.skill-tittle{
+  font-size: 30px;
+  color: rgb(199 71 72);
+  text-align: center;
+}
+
+#last{
+  padding-bottom: 30px;
+}
+
+/* @media (max-width: 952px)
+@media (max-width: 858px)
+*/
+
+/* @media (max-width: 653px){
+  .skills{
+    margin-left: 25%;
+  }
+}  */
