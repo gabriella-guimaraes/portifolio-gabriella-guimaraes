@@ -1,23 +1,26 @@
 import '../style/Skills.css';
 import Card from '@material-ui/core/Card';
-// import CardMedia from '@material-ui/core/CardMedia';
-// import { makeStyles } from "@material-ui/core/styles";
+import CardMedia from '@material-ui/core/CardMedia';
+import devIcon from '../images/dev-icon.jpg';
+import designIcon from '../images/design-icon.jpg';
+import { makeStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
 
 function Skills(){
-  // const useStyles = makeStyles({
-  //   media: {
-  //     height: 105,
-  //   },
-  // });
+  const useStyles = makeStyles({
+    media: {
+      height: 200,
+      width: 200,
+    },
+  });
 
-  // const classes = useStyles();
+  const classes = useStyles();
   return(
     <div className="skills">
       <Grid container spacing={2}>
         <Grid item xs={12} sm={6}>
           <Card>
-            {/* <CardMedia className={classes.media} image={'./logo.jpg'} /> */}
+            <CardMedia className={classes.media} id="imgDev" image={devIcon} />
             <h1 className="skill-intro">Front-End Developer</h1>
             <p className="skill-text">I like to code things from scratch, and enjoy bringing ideas to life in the browser.</p>
             <h2 className="skill-tittle">Languages:</h2>
@@ -32,6 +35,7 @@ function Skills(){
         </Grid>
         <Grid item xs={12} sm={6}>
           <Card>
+          <CardMedia className={classes.media} id="imgDesign" image={designIcon} />
             <h1 className="skill-intro">Designer</h1>
             <p className="skill-text">I value simple content structure, clean design patterns, and
             creative interactions</p>

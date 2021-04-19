@@ -28,6 +28,10 @@
   padding-bottom: 30px;
 }
 
+#imgDev, #imgDesign{
+  margin: 0 auto;
+}
+
 /* @media (max-width: 952px)
 @media (max-width: 858px)
 */

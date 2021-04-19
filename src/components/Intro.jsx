@@ -13,7 +13,7 @@ function Intro (){
         <Grid container spacing={1}>
           <Grid item xs={4} sm={6}>
             <h1 className="intro-tittle"> Hello there, <br/>I'm Gabriella</h1>
-            <p className="intro-text">Front-End Developer</p>
+            <p className="intro-text"><strong>Front-End Developer</strong></p>
             <p className="intro-text">I design and code beautifully simple things, and
             I love what I do.</p>
           </Grid>
