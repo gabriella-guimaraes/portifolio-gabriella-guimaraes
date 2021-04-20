@@ -14,8 +14,10 @@
 
 .skills{
   padding: 0px 30px;
-  background-color: black;
+  margin-top: 30px;
+  /* background-color: black;
   height: 30vh;
+  margin-bottom: 100px; */
 }
 
 .skill-tittle{
@@ -32,12 +34,9 @@
   margin: 0 auto;
 }
 
-/* @media (max-width: 952px)
-@media (max-width: 858px)
-*/
 
-/* @media (max-width: 653px){
-  .skills{
-    margin-left: 25%;
-  }
-}  */
+/* .div-style{
+  padding: 0px 30px;
+  background-color: black;
+  height: 30vh;
+} */
