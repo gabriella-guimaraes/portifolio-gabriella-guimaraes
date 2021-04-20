@@ -4,6 +4,7 @@ import illustration from '../images/profile-pic.jpg';
 import Grid from "@material-ui/core/Grid";
 import Navbar from './Navbar';
 import Projects from './Projects';
+import Recommendations from './Recommendations';
 import Skills from './Skills';
 
 function Intro (){
@@ -26,6 +27,7 @@ function Intro (){
       <About />
       <Skills />
       <Projects />
+      <Recommendations />
     </div>
   )
 }

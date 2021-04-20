@@ -1,5 +1,5 @@
 import '../style/Navbar.css';
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import logo from '../logo.jpg';
 // import { useHistory } from "react-router-dom";
 
@@ -19,14 +19,14 @@ function Navbar(){
           <i className="fas fa-bars"></i>
         </label>
         <img src={logo} className="logo" alt="gabi logo" />
-        <ul className="menuItens">
+        {/* <ul className="menuItens">
         <li>
           <Link className="active" to="/">Home</Link>
         </li>
         <li>
           <Link className="active" to="#about">About</Link>
         </li>
-        </ul>
+        </ul> */}
       </nav>
     </div>
   )

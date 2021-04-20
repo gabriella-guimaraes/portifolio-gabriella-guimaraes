@@ -78,7 +78,7 @@ a.active,a:hover{
       padding-left: 50px;
   }
 
-  ul{
+  /* ul{
       position: fixed;
       width: 100%;
       height: 100vh;
@@ -87,7 +87,7 @@ a.active,a:hover{
       right: -103%;
       text-align: center;
       transition: all .5s;
-  }
+  } */
 
   nav ul li{
       display: block;
