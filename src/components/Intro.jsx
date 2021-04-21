@@ -1,5 +1,7 @@
 import '../style/Intro.css';
 import About from './About';
+import Contact from './Contact';
+import Footer from './Footer';
 import illustration from '../images/profile-pic.jpg';
 import Grid from "@material-ui/core/Grid";
 import Navbar from './Navbar';
@@ -28,6 +30,8 @@ function Intro (){
       <Skills />
       <Projects />
       <Recommendations />
+      <Contact />
+      <Footer />
     </div>
   )
 }

@@ -1,0 +1,150 @@
+/* .contact-call{
+  background-color: black;
+  color: white;
+  max-width: 85%;
+  margin: 0 auto;
+  border-radius: 20px;
+  margin-bottom: 10%;
+}
+
+.contact-tittle{
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 32px;
+}
+
+.contact-text{
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+#contactBtn{
+  background-color: rgb(199 71 72);
+  margin-bottom: 20px;
+  margin-top: 40px;
+  margin-left: 20%;
+}
+
+.gabi-logo{
+  max-width: 200px;
+}
+
+@media (max-width: 653px){
+  .contact-tittle{
+    font-size: 36px;
+    text-align: center;
+    margin: 10px;
+  }
+
+  .contact-text{
+    font-size: 20px;
+    margin-top: 3px;
+    padding: 0px 52px;
+    text-align: justify;
+  }
+  
+  #contactBtn{
+    background-color: rgb(199 71 72);
+    margin: 0px 75px 30px;
+  }
+} */
+/* @media (max-width: 952px)
+@media (max-width: 858px)
+@media (max-width: 653px) */
+
+.contact{
+  margin: 0 auto;
+  padding-bottom: 90px;
+  cursor: pointer;
+  margin-top: 20%;
+}
+
+.contact-tittle{
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.contact-text{
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#contact-icons{
+  width: 90px;
+  height: 90px;
+  margin: 10px 0 0 48px;
+}
+
+.icon-span{
+  width: 190px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.contacts{
+  margin: 0 auto;
+}
+
+/* .gabi-logo{
+  margin: 0 auto;
+} */
+
+@media (max-width: 952px){
+  #contact-icons{
+    width: 100px;
+    height: 100px;
+    margin: 10px 0 0 48px;
+  }
+  
+  .icon-span{
+    width: 190px;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .contacts{
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 858px){
+  #contact-icons{
+    width: 100px;
+    height: 100px;
+    margin: 10px 0 0 48px;
+  }
+  
+  .icon-span{
+    width: 190px;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .contacts{
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 653px){
+  #contact-icons{
+    width: 100px;
+    height: 100px;
+    margin: 5px 0 0 48px;
+  }
+  
+  .icon-span{
+    width: 200px;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 12px;
+  }
+  
+  .contacts{
+    margin: 0 auto;
+    padding: 10px;
+  }
+}

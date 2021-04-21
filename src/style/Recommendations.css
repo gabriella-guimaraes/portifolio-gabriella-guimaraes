@@ -1,5 +1,8 @@
 .recommendations{
   margin-top: 10%;
+  margin-bottom: 20%;
+  margin: 0 auto;
+  max-width: 80%;
 }
 
 .recommendations-tittle{
@@ -56,7 +59,13 @@
 @media (max-width: 653px){
   .recommendations-tittle{
     text-align: center;
-    font-size: 40px;
+    font-size: 36px;
     margin-top: 80px;
+  }
+
+  .message{
+    max-width: 70%;
+    margin: 0 auto;
+    margin-bottom: 20px;
   }
 }

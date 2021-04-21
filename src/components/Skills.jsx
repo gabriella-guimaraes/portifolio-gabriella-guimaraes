@@ -30,6 +30,8 @@ function Skills(){
             <p className="skill-text">Firebase, Heroku, Vercel</p>
             <h2 className="skill-tittle">Databases:</h2>
             <p className="skill-text">Firestore, Postgress, MySQL</p>
+            <h2 className="skill-tittle">Libraries and Frameworks:</h2>
+            <p className="skill-text">React.js, Material UI, Express</p>
             <h2 className="skill-tittle">Dev tools:</h2>
             <p className="skill-text" id="last">Git, Github, Visual Studio Code, Atom, Trello, Postman</p>
           </Card>
